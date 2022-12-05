@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_460964_haga_hr_ticket" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_460964_haga_hr_ticket</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_id>b3c133742f455010a8a63e0ef699b649</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+            <sys_update_name>sys_choice_x_460964_haga_hr_ticket_category</sys_update_name>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-26 01:44:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal request (office work)</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:24:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2f6d6dd2f0d9010a8a63e0ef699b6d6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:26:22</sys_updated_on>
+            <value>Internal request (office work)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>社内依頼(事務)</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bc133742f455010a8a63e0ef699b648</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:26:03</sys_updated_on>
+            <value>Internal request (office work)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal request (other than clerical work)</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:28:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5d712112f4d9010a8a63e0ef699b613</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:28:22</sys_updated_on>
+            <value>Internal request (other than clerical work)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>社内依頼(事務以外)</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbc133742f455010a8a63e0ef699b64a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:26:49</sys_updated_on>
+            <value>Internal request (other than clerical work)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>evaluation system</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:30:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>464852112f4d9010a8a63e0ef699b623</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:30:16</sys_updated_on>
+            <value>evaluation system</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>評価制度</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7c133742f455010a8a63e0ef699b64c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:30:01</sys_updated_on>
+            <value>evaluation system</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Career plan</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:23:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dd69e5d2f0d9010a8a63e0ef699b62a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:30:44</sys_updated_on>
+            <value>Career plan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>キャリアプラン</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3c133742f455010a8a63e0ef699b64e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:30:33</sys_updated_on>
+            <value>Career plan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Briefing session</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:31:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c885e112f4d9010a8a63e0ef699b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:31:17</sys_updated_on>
+            <value>Briefing session</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>説明会</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffc133742f455010a8a63e0ef699b64f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:31:03</sys_updated_on>
+            <value>Briefing session</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In-house recruitment</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:32:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97a8dedd2f0d9010a8a63e0ef699b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:32:00</sys_updated_on>
+            <value>In-house recruitment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>社内公募</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbc133742f455010a8a63e0ef699b651</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:31:46</sys_updated_on>
+            <value>In-house recruitment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rules and regulations</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:32:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fc852512f4d9010a8a63e0ef699b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:32:36</sys_updated_on>
+            <value>Rules and regulations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>規則・規定</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fc1b3742f455010a8a63e0ef699b606</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:32:22</sys_updated_on>
+            <value>Rules and regulations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT system</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 08:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bb6da992f0d9010a8a63e0ef699b699</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:33:05</sys_updated_on>
+            <value>IT system</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITシステム</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-26 01:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bc1b3742f455010a8a63e0ef699b608</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 08:32:54</sys_updated_on>
+            <value>IT system</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

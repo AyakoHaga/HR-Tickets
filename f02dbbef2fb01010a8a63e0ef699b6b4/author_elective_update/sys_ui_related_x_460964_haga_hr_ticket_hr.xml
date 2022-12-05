@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_460964_haga_hr_ticket" version="2" view="hr">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="HR Ticket - HR" name="x_460964_haga_hr_ticket" related_list="NULL" sys_domain="global" view="714088482f79d010a8a63e0ef699b6b9">3f18bdac2ff95410a8a63e0ef699b66b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:c2729ae62fe19010a8a63e0ef699b6e6</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-01 05:01:16</sys_created_on>
+            <sys_id>0c28b1ec2ff95410a8a63e0ef699b604</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-01 05:01:16</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>HR Ticket - HR</calculated_name>
+            <filter/>
+            <name>x_460964_haga_hr_ticket</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-01 05:01:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f18bdac2ff95410a8a63e0ef699b66b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>HR Ticket - HR</sys_name>
+            <sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+            <sys_update_name>sys_ui_related_x_460964_haga_hr_ticket_hr</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-01 05:01:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="HR" name="hr">714088482f79d010a8a63e0ef699b6b9</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</application>
+        <file_path/>
+        <instance_id>63f725b7db66c0140ae3ac44d4961997</instance_id>
+        <instance_name>dev98605</instance_name>
+        <name>sys_ui_related_x_460964_haga_hr_ticket_hr</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_460964_haga_hr_ticket" version="2" view="hr"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="HR Ticket - HR" name="x_460964_haga_hr_ticket" related_list="NULL" sys_domain="global" view="714088482f79d010a8a63e0ef699b6b9">3f18bdac2ff95410a8a63e0ef699b66b</list_id><order_by/><position>0</position><related_list>REL:c2729ae62fe19010a8a63e0ef699b6e6</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-01 05:01:16</sys_created_on><sys_id>0c28b1ec2ff95410a8a63e0ef699b604</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-01 05:01:16</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>HR Ticket - HR</calculated_name><filter/><name>x_460964_haga_hr_ticket</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-01 05:01:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f18bdac2ff95410a8a63e0ef699b66b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Ticket - HR</sys_name><sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package><sys_policy/><sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope><sys_update_name>sys_ui_related_x_460964_haga_hr_ticket_hr</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-01 05:01:16</sys_updated_on><sys_user/><view display_value="HR" name="hr">714088482f79d010a8a63e0ef699b6b9</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-1116652059</payload_hash>
+        <record_name>HR Ticket</record_name>
+        <reverted_from/>
+        <source>f42dbbef2fb01010a8a63e0ef699b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 05:01:16</sys_created_on>
+        <sys_id>0428b1ec2ff95410a8a63e0ef699b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17308c024ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 05:01:16</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>8c28b1ec9ff954100bd8bac2688e7805</update_guid>
+        <update_guid_history>8c28b1ec9ff954100bd8bac2688e7805:-1116652059,4df7fdacaef954106d8534f169f78612:-637749927,c9f7f16c63f954103eeb53a3e2dbcc11:-240049087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 07:24:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>2eb82493b59a4fd99497a0e7c3aecd71</sys_id>
+        <sys_metadata>3f18bdac2ff95410a8a63e0ef699b66b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Ticket - HR</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_parent display_value="HR Ticket">fd1f37272ff01010a8a63e0ef699b64d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_scope_delete display_value="">00ec95505d344aef80912bc97da57e81</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_460964_haga_hr_ticket_hr</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_460964_haga_hr_ticket_hr">0428b1ec2ff95410a8a63e0ef699b606</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 07:24:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name>text-warning</class_name>
+        <color>warning</color>
+        <css/>
+        <glyph>question-circle</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Check the FAQ for questions</short_description>
+        <size>md</size>
+        <sp_column display_value="1">97d353682f451010a8a63e0ef699b684</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 04:57:32</sys_created_on>
+        <sys_id>547453682f451010a8a63e0ef699b68c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FAQ</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_instance_link_547453682f451010a8a63e0ef699b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:46:49</sys_updated_on>
+        <title>FAQ</title>
+        <type>url</type>
+        <url>?id=kb_search&amp;kb_knowledge_base=f51501852f895010a8a63e0ef699b624</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=547453682f451010a8a63e0ef699b68c"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>547453682f451010a8a63e0ef699b68c</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 05:46:49</sys_created_on>
+        <sys_id>591680462fcd1410a8a63e0ef699b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:46:49</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value>FAQで不明点、疑問点を調べる</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>547453682f451010a8a63e0ef699b68c</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 05:46:49</sys_created_on>
+        <sys_id>551680462fcd1410a8a63e0ef699b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:46:49</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value>FAQ</value>
+    </sys_translated_text>
+</record_update>

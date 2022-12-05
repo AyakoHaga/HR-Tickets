@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ca67d32c2f451010a8a63e0ef699b690</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 05:11:01</sys_created_on>
+        <sys_id>b587df282f451010a8a63e0ef699b68d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_instance_b587df282f451010a8a63e0ef699b68d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-25 07:20:51</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"panel panel-default\"><div class=\"panel-heading\"><span class=\"h5\">リンク集</span></div><div class=\"panel-body\"><ul class=\"list-unstyled\"><li><a href=\"https://jbsbpos1.sharepoint.com/sites/CompanyRules\" target=\"_blank\" data-mce-href=\"https://jbsbpos1.sharepoint.com/sites/CompanyRules\">規則・規程</a></li></ul></div></div>",
+		"displayValue": "<div class=\"panel panel-default\">\n<div class=\"panel-heading\"><span class=\"h5\">リンク集</span></div>\n<div class=\"panel-body\">\n<ul class=\"list-unstyled\">\n<li><a href=\"https://jbsbpos1.sharepoint.com/sites/CompanyRules\" target=\"_blank\">規則・規程</a></li>\n</ul>\n</div>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b587df282f451010a8a63e0ef699b68d"/>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_460964_haga_hr_ticket" relationship="c2729ae62fe19010a8a63e0ef699b6e6" sys_domain="global" table="sys_email" version="2" view="hr">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sys_email" element="NULL" name="sys_email" parent="x_460964_haga_hr_ticket" relationship="c2729ae62fe19010a8a63e0ef699b6e6" sys_domain="global" view="714088482f79d010a8a63e0ef699b6b9">c51124142f791410a8a63e0ef699b6f8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-30 04:02:29</sys_created_on>
+            <sys_id>451124142f791410a8a63e0ef699b6fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:02:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>recipients</element>
+            <list_id display_value="sys_email" element="NULL" name="sys_email" parent="x_460964_haga_hr_ticket" relationship="c2729ae62fe19010a8a63e0ef699b6e6" sys_domain="global" view="714088482f79d010a8a63e0ef699b6b9">c51124142f791410a8a63e0ef699b6f8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-30 04:02:29</sys_created_on>
+            <sys_id>c91124142f791410a8a63e0ef699b6fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:02:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>subject</element>
+            <list_id display_value="sys_email" element="NULL" name="sys_email" parent="x_460964_haga_hr_ticket" relationship="c2729ae62fe19010a8a63e0ef699b6e6" sys_domain="global" view="714088482f79d010a8a63e0ef699b6b9">c51124142f791410a8a63e0ef699b6f8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-30 04:02:29</sys_created_on>
+            <sys_id>4d1124142f791410a8a63e0ef699b6fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:02:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_email</name>
+            <parent>x_460964_haga_hr_ticket</parent>
+            <position/>
+            <relationship display_value="Email Notifications">c2729ae62fe19010a8a63e0ef699b6e6</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-30 04:02:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c51124142f791410a8a63e0ef699b6f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_email</sys_name>
+            <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+            <sys_update_name>sys_ui_list_x_460964_haga_hr_ticket_c2729ae62fe19010a8a63e0ef699b6e6_hr_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:02:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="HR" name="hr">714088482f79d010a8a63e0ef699b6b9</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

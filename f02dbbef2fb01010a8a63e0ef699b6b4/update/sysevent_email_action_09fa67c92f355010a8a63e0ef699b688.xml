@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_460964_haga_hr_ticket</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>alm_transfer_order_line_subtask.escalati</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>${caller_id} さん</p>
+<p>問合せを受け付けました。<br />担当者からの連絡をお待ちください。</p>
+<p>番号：${number}<br />件名：${short_description}<br />内容：<br />${description}</p>
+<p>&nbsp;</p>
+<p>以下のリンクからチケットの参照や担当者への連絡ができます。</p>
+<p>${mail_script:jbs.hr.ess.url}</p>
+<p>${mail_script:jbs.task.set_email_signature.html}</p>
+<p>${mail_script:jbs.common.footer.signature.html}</p>
+<p>${mail_script:jbs.hr.set_email_from}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HR Ticket opened for me</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>caller_id,watch_list</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>【${number}】受付 - ${short_description}</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-03 02:43:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09fa67c92f355010a8a63e0ef699b688</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR Ticket opened for me</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sysevent_email_action_09fa67c92f355010a8a63e0ef699b688</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-03 02:44:30</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

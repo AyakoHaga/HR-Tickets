@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA New Tab">86864e692f49d010a8a63e0ef699b68c</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="作成日時 2020-05-28 06:54:10">3debc76d2f4dd010a8a63e0ef699b677</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>yurika.kitamyo</sys_created_by>
+        <sys_created_on>2020-05-28 06:54:10</sys_created_on>
+        <sys_id>caebc76d2f4dd010a8a63e0ef699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>86864e692f49d010a8a63e0ef699b68c</sys_name>
+        <sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_caebc76d2f4dd010a8a63e0ef699b679</sys_update_name>
+        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+        <sys_updated_on>2020-05-28 06:54:10</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</application>
+        <file_path/>
+        <instance_id>63f725b7db66c0140ae3ac44d4961997</instance_id>
+        <instance_name>dev98605</instance_name>
+        <name>sys_grid_canvas_pane_caebc76d2f4dd010a8a63e0ef699b679</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA New Tab">86864e692f49d010a8a63e0ef699b68c</grid_canvas><height>10</height><portal_widget display_value="作成日時 2020-05-28 06:54:10">3debc76d2f4dd010a8a63e0ef699b677</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>yurika.kitamyo</sys_created_by><sys_created_on>2020-05-28 06:54:10</sys_created_on><sys_id>caebc76d2f4dd010a8a63e0ef699b679</sys_id><sys_mod_count>0</sys_mod_count><sys_name>86864e692f49d010a8a63e0ef699b68c</sys_name><sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package><sys_policy/><sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope><sys_update_name>sys_grid_canvas_pane_caebc76d2f4dd010a8a63e0ef699b679</sys_update_name><sys_updated_by>yurika.kitamyo</sys_updated_by><sys_updated_on>2020-05-28 06:54:10</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>968990852</payload_hash>
+        <record_name>86864e692f49d010a8a63e0ef699b68c</record_name>
+        <reverted_from/>
+        <source>f42dbbef2fb01010a8a63e0ef699b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yurika.kitamyo</sys_created_by>
+        <sys_created_on>2020-05-28 06:54:10</sys_created_on>
+        <sys_id>ceeb0fed2f4dd010a8a63e0ef699b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1725a0f47d00000001</sys_recorded_at>
+        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+        <sys_updated_on>2020-05-28 06:54:10</sys_updated_on>
+        <type>グリッドキャンバスペイン</type>
+        <update_guid>0aeb0fedbc4dd010a13d367be3b6f6cb</update_guid>
+        <update_guid_history>0aeb0fedbc4dd010a13d367be3b6f6cb:968990852</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yurika.kitamyo</sys_created_by>
+        <sys_created_on>2020-05-29 02:52:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>266e017d106945c5844670eb4345ce19</sys_id>
+        <sys_metadata>caebc76d2f4dd010a8a63e0ef699b679</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>86864e692f49d010a8a63e0ef699b68c</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_scope_delete display_value="">00ec95505d344aef80912bc97da57e81</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_caebc76d2f4dd010a8a63e0ef699b679</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_caebc76d2f4dd010a8a63e0ef699b679">ceeb0fed2f4dd010a8a63e0ef699b6cb</sys_update_version>
+        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+        <sys_updated_on>2020-05-29 02:52:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>hr_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 05:10:58</sys_created_on>
+        <sys_id>44c0bc502fb91410a8a63e0ef699b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hr_view</sys_name>
+        <sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sys_ui_view_44c0bc502fb91410a8a63e0ef699b66b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 05:10:58</sys_updated_on>
+        <title>Hr_view</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</application>
+        <file_path/>
+        <instance_id>63f725b7db66c0140ae3ac44d4961997</instance_id>
+        <instance_name>dev98605</instance_name>
+        <name>sys_ui_view_44c0bc502fb91410a8a63e0ef699b66b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>hr_view</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-30 05:10:58</sys_created_on><sys_id>44c0bc502fb91410a8a63e0ef699b66b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hr_view</sys_name><sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package><sys_policy/><sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope><sys_update_name>sys_ui_view_44c0bc502fb91410a8a63e0ef699b66b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-30 05:10:58</sys_updated_on><title>Hr_view</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-271321132</payload_hash>
+        <record_name>Hr_view</record_name>
+        <reverted_from/>
+        <source>f42dbbef2fb01010a8a63e0ef699b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 05:10:58</sys_created_on>
+        <sys_id>d0c0b4902fb91410a8a63e0ef699b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17303a2a8dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 05:10:58</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>4cc0bc502eb914100515c0ef5e66dd6c</update_guid>
+        <update_guid_history>4cc0bc502eb914100515c0ef5e66dd6c:-271321132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 05:12:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>0b4418c78449479bb384d89e48900ed1</sys_id>
+        <sys_metadata>44c0bc502fb91410a8a63e0ef699b66b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hr_view</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_scope_delete display_value="">00ec95505d344aef80912bc97da57e81</sys_scope_delete>
+        <sys_update_name>sys_ui_view_44c0bc502fb91410a8a63e0ef699b66b</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_44c0bc502fb91410a8a63e0ef699b66b">d0c0b4902fb91410a8a63e0ef699b6a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 05:12:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

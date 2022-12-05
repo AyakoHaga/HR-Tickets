@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="HR Ticket">c9faebb82f055010a8a63e0ef699b6f1</sc_cat_item>
+        <sc_catalog display_value="Human Resources">ef4a3b7c2f455010a8a63e0ef699b66b</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 02:23:41</sys_created_on>
+        <sys_id>94daff7c2f455010a8a63e0ef699b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HAGA HR.HR Ticket</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_94daff7c2f455010a8a63e0ef699b660</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 02:23:41</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

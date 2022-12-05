@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>haga.hr.answer_template</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	if (current.state == '6') {
+		template.print(
+			gs.getMessage('JBS This is an email template that will be notified to ESS when responding from human resources.'));
+	}
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 02:15:50</sys_created_on>
+        <sys_id>ce759bf52f0d1410a8a63e0ef699b696</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>haga.hr.answer_template</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sys_script_email_ce759bf52f0d1410a8a63e0ef699b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 02:53:02</sys_updated_on>
+    </sys_script_email>
+</record_update>

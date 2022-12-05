@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name>text-success</class_name>
+        <color>success</color>
+        <css/>
+        <glyph>globe</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>View SharePoint Online portal</short_description>
+        <size>md</size>
+        <sp_column display_value="1">2219932c2f451010a8a63e0ef699b651</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 06:23:44</sys_created_on>
+        <sys_id>cf28aba82f851010a8a63e0ef699b629</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HR Portal</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_instance_link_cf28aba82f851010a8a63e0ef699b629</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-02 09:11:40</sys_updated_on>
+        <title>HR Portal</title>
+        <type>url</type>
+        <url>https://jbsbpos1.sharepoint.com/sites/HumanResources/</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf28aba82f851010a8a63e0ef699b629"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>cf28aba82f851010a8a63e0ef699b629</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 05:48:34</sys_created_on>
+        <sys_id>3a7600462fcd1410a8a63e0ef699b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:48:34</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value>SharePoint Onlineのポータルを表示</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>cf28aba82f851010a8a63e0ef699b629</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 05:48:34</sys_created_on>
+        <sys_id>3a7608462fcd1410a8a63e0ef699b66e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:48:55</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value>人事課ポータル</value>
+    </sys_translated_text>
+</record_update>

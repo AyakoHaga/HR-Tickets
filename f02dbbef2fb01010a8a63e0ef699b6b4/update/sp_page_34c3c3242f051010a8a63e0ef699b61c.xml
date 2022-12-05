@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>section.page {&#13;
+	// background-color: $sp-homepage-bg;&#13;
+}&#13;
+section.page, main.body {&#13;
+    padding-top: 0px !important;&#13;
+}&#13;
+&#13;
+div.wrapper-xl {&#13;
+	padding-top: 25px !important;&#13;
+	padding-bottom: 25px !important;&#13;
+	padding-left: 80px !important;&#13;
+	padding-right: 80px !important;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>haga_hr_index</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>デモ用：人事問合せ機能ポータル</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 04:04:21</sys_created_on>
+        <sys_id>34c3c3242f051010a8a63e0ef699b61c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>haga_hr_index</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_page_34c3c3242f051010a8a63e0ef699b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:45:35</sys_updated_on>
+        <title>Home</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=34c3c3242f051010a8a63e0ef699b61c"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>34c3c3242f051010a8a63e0ef699b61c</documentkey>
+        <fieldname>dynamic_title_structure</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 05:45:36</sys_created_on>
+        <sys_id>1bc5c8062fcd1410a8a63e0ef699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:45:36</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>34c3c3242f051010a8a63e0ef699b61c</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 05:45:35</sys_created_on>
+        <sys_id>dfc588822fcd1410a8a63e0ef699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:45:35</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value>デモ用：人事問合せ機能ポータル</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>34c3c3242f051010a8a63e0ef699b61c</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 05:45:35</sys_created_on>
+        <sys_id>5fc588822fcd1410a8a63e0ef699b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 05:45:35</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value>ホーム</value>
+    </sys_translated_text>
+</record_update>

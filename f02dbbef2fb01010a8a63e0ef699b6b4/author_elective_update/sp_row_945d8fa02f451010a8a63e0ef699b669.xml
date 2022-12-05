@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Home - Container 1">6cfb4fe02f051010a8a63e0ef699b605</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 04:26:24</sys_created_on>
+        <sys_id>945d8fa02f451010a8a63e0ef699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_row_945d8fa02f451010a8a63e0ef699b669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-25 04:26:24</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</application>
+        <file_path/>
+        <instance_id>63f725b7db66c0140ae3ac44d4961997</instance_id>
+        <instance_name>dev98605</instance_name>
+        <name>sp_row_945d8fa02f451010a8a63e0ef699b669</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Home - Container 1">6cfb4fe02f051010a8a63e0ef699b605</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-25 04:26:24</sys_created_on><sys_id>945d8fa02f451010a8a63e0ef699b669</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package><sys_policy/><sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope><sys_update_name>sp_row_945d8fa02f451010a8a63e0ef699b669</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-25 04:26:24</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1539895894</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>f42dbbef2fb01010a8a63e0ef699b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 04:26:24</sys_created_on>
+        <sys_id>d45d8fa02f451010a8a63e0ef699b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1724a14ec410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-25 04:26:24</sys_updated_on>
+        <type>Row</type>
+        <update_guid>105d8fa0ef451010ade0431abf7c206b</update_guid>
+        <update_guid_history>105d8fa0ef451010ade0431abf7c206b:-1539895894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">ed52efcc2f612810a8a63e0ef699b6b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-02 09:23:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>0d8748dda17842b79b34b7a9106b42a1</sys_id>
+        <sys_metadata>945d8fa02f451010a8a63e0ef699b669</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_scope_delete display_value="">00ec95505d344aef80912bc97da57e81</sys_scope_delete>
+        <sys_update_name>sp_row_945d8fa02f451010a8a63e0ef699b669</sys_update_name>
+        <sys_update_version display_value="sp_row_945d8fa02f451010a8a63e0ef699b669">d45d8fa02f451010a8a63e0ef699b66b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-02 09:23:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>haga.hr.additional_details</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	template.print('<p><font size="4" color="#999999" face="helvetica"><strong>');
+	template.print(gs.getMessage('Additional Details:'));
+	template.print('</strong></font></p>');
+	template.print('<font size="3" color="#999999" face="helvetica">');
+	var i18nCaller = gs.getMessage('Caller: {0}', '${caller_id}');
+	var i18nCagegory = gs.getMessage('Category: {0}', '${category}');
+	var i18nSubcategory = gs.getMessage('Subcategory: {0}', '${subcategory}');
+//	var i18nPriority = gs.getMessage('Priority: {0}', '${priority}');
+	template.print('<p>' + i18nCaller + '<br/>');
+	template.print('<p>' + i18nCagegory + '</p>');
+	template.print('<p>' + i18nSubcategory + '</p>');
+//	template.print('<p>' + i18nPriority + '</p>');
+	template.print('</font>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 01:59:45</sys_created_on>
+        <sys_id>17d197352f0d1410a8a63e0ef699b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>haga.hr.additional_details</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sys_script_email_17d197352f0d1410a8a63e0ef699b641</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 01:59:45</sys_updated_on>
+    </sys_script_email>
+</record_update>

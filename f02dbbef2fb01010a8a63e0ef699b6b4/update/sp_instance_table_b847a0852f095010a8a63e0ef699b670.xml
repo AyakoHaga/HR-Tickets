@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>#optionsMenu {&#13;
+  display: none;&#13;
+}&#13;
+div.filter-breadcrumbs {&#13;
+  display: none;&#13;
+}</css>
+        <display_field>active</display_field>
+        <field_list>number,short_description,caller_id,state,sys_updated_on</field_list>
+        <filter table="x_460964_haga_hr_ticket">caller_id.sys_id=javascript:gs.getUserID()^ORwatch_listLIKEjavascript:gs.getUserID()^EQ<item endquery="false" field="caller_id.sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="false" field="watch_list" goto="false" newquery="false" operator="LIKE" or="true" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>list-alt</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>number</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">56f628852f095010a8a63e0ef699b646</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 05:37:52</sys_created_on>
+        <sys_id>b847a0852f095010a8a63e0ef699b670</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>人事問合せ一覧</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_instance_table_b847a0852f095010a8a63e0ef699b670</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 06:42:50</sys_updated_on>
+        <table>x_460964_haga_hr_ticket</table>
+        <title>List of HR Ticket</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+    "show_breadcrumbs": {
+        "value": false,
+        "displayValue": false
+    }
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=b847a0852f095010a8a63e0ef699b670"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>b847a0852f095010a8a63e0ef699b670</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 06:02:17</sys_created_on>
+        <sys_id>f399ccc62fcd1410a8a63e0ef699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 06:02:17</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>b847a0852f095010a8a63e0ef699b670</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 06:02:17</sys_created_on>
+        <sys_id>bf99ccc62fcd1410a8a63e0ef699b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 06:02:17</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value>人事問合せ一覧</value>
+    </sys_translated_text>
+</record_update>

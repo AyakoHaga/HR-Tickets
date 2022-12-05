@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="問合せ者へ回答" section_id="bff825552f899010a8a63e0ef699b61b" sys_domain="global" table="x_460964_haga_hr_ticket" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 06:49:33</sys_created_on>
+            <sys_id>cc74d0462f015410a8a63e0ef699b6de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="問合せ者へ回答" display_value="問合せ者へ回答" name="x_460964_haga_hr_ticket" sys_domain="global" view="Default view">bff825552f899010a8a63e0ef699b61b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 06:49:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 06:49:33</sys_created_on>
+            <sys_id>8874d0462f015410a8a63e0ef699b6df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="問合せ者へ回答" display_value="問合せ者へ回答" name="x_460964_haga_hr_ticket" sys_domain="global" view="Default view">bff825552f899010a8a63e0ef699b61b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 06:49:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 06:49:33</sys_created_on>
+            <sys_id>0074d0462f015410a8a63e0ef699b6e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="問合せ者へ回答" display_value="問合せ者へ回答" name="x_460964_haga_hr_ticket" sys_domain="global" view="Default view">bff825552f899010a8a63e0ef699b61b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 06:49:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 06:49:33</sys_created_on>
+            <sys_id>8474d0462f015410a8a63e0ef699b6e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="問合せ者へ回答" display_value="問合せ者へ回答" name="x_460964_haga_hr_ticket" sys_domain="global" view="Default view">bff825552f899010a8a63e0ef699b61b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 06:49:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>問合せ者へ回答</caption>
+            <header>false</header>
+            <name>x_460964_haga_hr_ticket</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-27 05:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bff825552f899010a8a63e0ef699b61b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_460964_haga_hr_ticket</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+            <sys_update_name>sys_ui_section_bff825552f899010a8a63e0ef699b61b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 06:49:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

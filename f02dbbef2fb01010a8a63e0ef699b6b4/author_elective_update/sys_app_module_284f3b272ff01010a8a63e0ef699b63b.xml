@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>false</active>
+        <application display_value="JBS人事">9c4ff7a32ff01010a8a63e0ef699b6df</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Closed</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_460964_haga_hr_ticket</name>
+        <order>2050</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-22 05:30:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>284f3b272ff01010a8a63e0ef699b63b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>In progress of contact</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sys_app_module_284f3b272ff01010a8a63e0ef699b63b</sys_update_name>
+        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+        <sys_updated_on>2020-05-27 02:58:50</sys_updated_on>
+        <timeline_page/>
+        <title>In progress of contact</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</application>
+        <file_path/>
+        <instance_id>63f725b7db66c0140ae3ac44d4961997</instance_id>
+        <instance_name>dev98605</instance_name>
+        <name>sys_app_module_284f3b272ff01010a8a63e0ef699b63b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>false</active><application display_value="JBS人事">9c4ff7a32ff01010a8a63e0ef699b6df</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Closed</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_460964_haga_hr_ticket</name><order>2050</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 05:30:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>284f3b272ff01010a8a63e0ef699b63b</sys_id><sys_mod_count>3</sys_mod_count><sys_name>In progress of contact</sys_name><sys_overrides/><sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package><sys_policy/><sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope><sys_update_name>sys_app_module_284f3b272ff01010a8a63e0ef699b63b</sys_update_name><sys_updated_by>yurika.kitamyo</sys_updated_by><sys_updated_on>2020-05-27 02:58:50</sys_updated_on><timeline_page/><title>In progress of contact</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>428499054</payload_hash>
+        <record_name>In progress of contact</record_name>
+        <reverted_from/>
+        <source>f42dbbef2fb01010a8a63e0ef699b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yurika.kitamyo</sys_created_by>
+        <sys_created_on>2020-05-27 02:58:50</sys_created_on>
+        <sys_id>457cc5192f099010a8a63e0ef699b6d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172541178b10000001</sys_recorded_at>
+        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+        <sys_updated_on>2020-05-27 02:58:50</sys_updated_on>
+        <type>モジュール</type>
+        <update_guid>cd7cc5194a099010cba2c16684d66dd2</update_guid>
+        <update_guid_history>cd7cc5194a099010cba2c16684d66dd2:428499054,3224ccb48009101052cfe8dc287b5841:1889959281,566bbbac46c5101096765db02ddfa3b6:-472333475,e84f3b27cff0101079590def1c3c203c:-1120995241</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="In progress of contact">33e9deba2fdde010a8a63e0ef699b6d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-29 06:55:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>ae522e6d92bc417bb279da07851f0101</sys_id>
+        <sys_metadata>284f3b272ff01010a8a63e0ef699b63b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>In progress of contact</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_scope_delete display_value="">00ec95505d344aef80912bc97da57e81</sys_scope_delete>
+        <sys_update_name>sys_app_module_284f3b272ff01010a8a63e0ef699b63b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_284f3b272ff01010a8a63e0ef699b63b">457cc5192f099010a8a63e0ef699b6d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-29 06:55:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

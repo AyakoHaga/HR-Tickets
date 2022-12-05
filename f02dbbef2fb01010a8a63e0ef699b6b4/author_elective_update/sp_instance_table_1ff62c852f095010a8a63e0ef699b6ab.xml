@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">56f628852f095010a8a63e0ef699b646</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from URL Definition">8ae61f55cb21020000f8d856634c9c93</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 05:36:40</sys_created_on>
+        <sys_id>1ff62c852f095010a8a63e0ef699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_instance_table_1ff62c852f095010a8a63e0ef699b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 05:36:40</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=1ff62c852f095010a8a63e0ef699b6ab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</application>
+        <file_path/>
+        <instance_id>63f725b7db66c0140ae3ac44d4961997</instance_id>
+        <instance_name>dev98605</instance_name>
+        <name>sp_instance_table_1ff62c852f095010a8a63e0ef699b6ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">56f628852f095010a8a63e0ef699b646</sp_column><sp_page/><sp_widget display_value="Data Table from URL Definition">8ae61f55cb21020000f8d856634c9c93</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-26 05:36:40</sys_created_on><sys_id>1ff62c852f095010a8a63e0ef699b6ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package><sys_policy/><sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope><sys_update_name>sp_instance_table_1ff62c852f095010a8a63e0ef699b6ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-26 05:36:40</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=1ff62c852f095010a8a63e0ef699b6ab"/></record_update>]]></payload>
+        <payload_hash>-2085769163</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f42dbbef2fb01010a8a63e0ef699b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 05:36:40</sys_created_on>
+        <sys_id>dff62c852f095010a8a63e0ef699b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1724f7b9ba90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 05:36:40</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>1bf62c85f9095010f031e30278dd19ad</update_guid>
+        <update_guid_history>1bf62c85f9095010f031e30278dd19ad:-2085769163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6b3768852f095010a8a63e0ef699b623</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 05:37:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>000f95045292407080000394c034fd10</sys_id>
+        <sys_metadata>1ff62c852f095010a8a63e0ef699b6ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_scope_delete display_value="">00ec95505d344aef80912bc97da57e81</sys_scope_delete>
+        <sys_update_name>sp_instance_table_1ff62c852f095010a8a63e0ef699b6ab</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_1ff62c852f095010a8a63e0ef699b6ab">dff62c852f095010a8a63e0ef699b6ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 05:37:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

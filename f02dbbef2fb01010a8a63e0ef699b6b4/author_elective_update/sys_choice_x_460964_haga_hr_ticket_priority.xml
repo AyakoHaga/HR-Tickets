@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_460964_haga_hr_ticket" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <name>x_460964_haga_hr_ticket</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:51:21</sys_created_on>
+            <sys_id>37daaa512f8d9010a8a63e0ef699b6dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>priority</sys_name>
+            <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+            <sys_update_name>sys_choice_x_460964_haga_hr_ticket_priority</sys_update_name>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:51:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Critical</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:51:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2ea6a512f8d9010a8a63e0ef699b606</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:51:40</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - 重要</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:51:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13ba26512f8d9010a8a63e0ef699b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:51:21</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - High</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:51:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dffaea512f8d9010a8a63e0ef699b6eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:51:59</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - 高</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:52:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f90bea512f8d9010a8a63e0ef699b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:52:18</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Moderate</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c71b62912f8d9010a8a63e0ef699b61c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:52:40</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - 中</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:53:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c3be2912f8d9010a8a63e0ef699b6be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:53:00</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Low</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:53:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e4be2912f8d9010a8a63e0ef699b6ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:53:18</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - 低</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:53:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>665b66912f8d9010a8a63e0ef699b612</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:53:42</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - Planning</label>
+            <language>en</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:53:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>436b66912f8d9010a8a63e0ef699b6f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:53:58</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - 計画中</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>yurika.kitamyo</sys_created_by>
+            <sys_created_on>2020-05-27 09:54:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>908ba2912f8d9010a8a63e0ef699b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yurika.kitamyo</sys_updated_by>
+            <sys_updated_on>2020-05-27 09:54:20</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

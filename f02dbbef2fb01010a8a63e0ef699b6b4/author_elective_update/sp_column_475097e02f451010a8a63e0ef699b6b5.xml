@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>1</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">945d8fa02f451010a8a63e0ef699b669</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 04:39:43</sys_created_on>
+        <sys_id>475097e02f451010a8a63e0ef699b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sp_column_475097e02f451010a8a63e0ef699b6b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-25 04:39:43</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</application>
+        <file_path/>
+        <instance_id>63f725b7db66c0140ae3ac44d4961997</instance_id>
+        <instance_name>dev98605</instance_name>
+        <name>sp_column_475097e02f451010a8a63e0ef699b6b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>1</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">945d8fa02f451010a8a63e0ef699b669</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-25 04:39:43</sys_created_on><sys_id>475097e02f451010a8a63e0ef699b6b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="HAGA HR" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package><sys_policy/><sys_scope display_value="HAGA HR">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope><sys_update_name>sp_column_475097e02f451010a8a63e0ef699b6b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-25 04:39:43</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>668506098</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>f42dbbef2fb01010a8a63e0ef699b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 04:39:43</sys_created_on>
+        <sys_id>4f5097e02f451010a8a63e0ef699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1724a211b2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-25 04:39:43</sys_updated_on>
+        <type>Column</type>
+        <update_guid>875097e0ca45101075c8933f0c18eeb6</update_guid>
+        <update_guid_history>875097e0ca45101075c8933f0c18eeb6:668506098</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">326013a42f451010a8a63e0ef699b6a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-25 04:39:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>4abe2b3697f94f1484d9a2dd33e4f0e9</sys_id>
+        <sys_metadata>475097e02f451010a8a63e0ef699b6b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_scope_delete display_value="">00ec95505d344aef80912bc97da57e81</sys_scope_delete>
+        <sys_update_name>sp_column_475097e02f451010a8a63e0ef699b6b5</sys_update_name>
+        <sys_update_version display_value="sp_column_475097e02f451010a8a63e0ef699b6b5">4f5097e02f451010a8a63e0ef699b6b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-25 04:39:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

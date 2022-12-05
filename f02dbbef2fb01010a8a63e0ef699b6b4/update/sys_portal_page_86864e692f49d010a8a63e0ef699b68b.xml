@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-12-05 07:56:17">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>yurika.kitamyo</sys_created_by>
+        <sys_created_on>2020-05-28 01:51:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86864e692f49d010a8a63e0ef699b68b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sys_portal_page_86864e692f49d010a8a63e0ef699b68b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 07:01:55</sys_updated_on>
+        <title>PA New Tab</title>
+        <user/>
+        <view>pa_new_tab_11</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">86864e692f49d010a8a63e0ef699b68b</page>
+                <summary>オープン中の問合せ件数</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                <sys_id>3c8f84ce2fcd1410a8a63e0ef699b63d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>388f84ce2fcd1410a8a63e0ef699b63f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>3c8f84ce2fcd1410a8a63e0ef699b63e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>748f84ce2fcd1410a8a63e0ef699b63f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>b08f84ce2fcd1410a8a63e0ef699b63e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value>b76fc84e2fcd1410a8a63e0ef699b636</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>b08f84ce2fcd1410a8a63e0ef699b63f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>f48f84ce2fcd1410a8a63e0ef699b640</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>f88f84ce2fcd1410a8a63e0ef699b63f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value>オープン中の問合せ件数</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-05-29 15:28:01">3c8f84ce2fcd1410a8a63e0ef699b63d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-05-29 06:28:01</sys_created_on>
+                        <sys_id>fc8f84ce2fcd1410a8a63e0ef699b63e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-05-29 06:28:01</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">86864e692f49d010a8a63e0ef699b68b</page>
+                <summary>チケット対応状況</summary>
+                <sys_created_by>yurika.kitamyo</sys_created_by>
+                <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                <sys_id>4a9aa7f92f4d1410a8a63e0ef699b69e</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>029aa7f92f4d1410a8a63e0ef699b69f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value>c5ead37d2f0d1410a8a63e0ef699b669</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>029aa7f92f4d1410a8a63e0ef699b6a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>069aa7f92f4d1410a8a63e0ef699b6a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>4a9aa7f92f4d1410a8a63e0ef699b6a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value>チケット対応状況</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>4e9aa7f92f4d1410a8a63e0ef699b69f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>869aa7f92f4d1410a8a63e0ef699b6a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>8a9aa7f92f4d1410a8a63e0ef699b69f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-05-29 12:46:44">4a9aa7f92f4d1410a8a63e0ef699b69e</portal_section>
+                        <sys_created_by>yurika.kitamyo</sys_created_by>
+                        <sys_created_on>2020-05-29 03:46:44</sys_created_on>
+                        <sys_id>c29aa7f92f4d1410a8a63e0ef699b6a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>yurika.kitamyo</sys_updated_by>
+                        <sys_updated_on>2020-05-29 03:46:44</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

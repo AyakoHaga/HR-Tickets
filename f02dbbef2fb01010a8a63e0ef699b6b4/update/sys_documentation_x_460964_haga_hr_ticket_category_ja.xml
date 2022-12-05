@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="category" label="カテゴリ" language="ja" table="x_460964_haga_hr_ticket">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <help/>
+            <hint/>
+            <label>カテゴリ</label>
+            <language>ja</language>
+            <name>x_460964_haga_hr_ticket</name>
+            <plural>カテゴリ</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 06:47:58</sys_created_on>
+            <sys_id>f414dcc22f015410a8a63e0ef699b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>カテゴリ</sys_name>
+            <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+            <sys_update_name>sys_documentation_x_460964_haga_hr_ticket_category_ja</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 06:47:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

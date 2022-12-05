@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="人事問合せ" max_length="40" name="x_460964_haga_hr_ticket" sizeclass="10" type="collection">
+        <element attributes="encode_utf8=false" label="Caller ID" mandatory="true" max_length="32" name="caller_id" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Internal request (office work)" sequence="1" value="Internal request (office work)"/>
+                <element inactive_on_update="false" label="社内依頼(事務)" language="ja" sequence="1" value="Internal request (office work)"/>
+                <element inactive_on_update="false" label="Internal request (other than clerical work)" sequence="2" value="Internal request (other than clerical work)"/>
+                <element inactive_on_update="false" label="社内依頼(事務以外)" language="ja" sequence="2" value="Internal request (other than clerical work)"/>
+                <element inactive_on_update="false" label="evaluation system" sequence="3" value="evaluation system"/>
+                <element inactive_on_update="false" label="評価制度" language="ja" sequence="3" value="evaluation system"/>
+                <element inactive_on_update="false" label="Career plan" sequence="4" value="Career plan"/>
+                <element inactive_on_update="false" label="キャリアプラン" language="ja" sequence="4" value="Career plan"/>
+                <element inactive_on_update="false" label="Briefing session" sequence="5" value="Briefing session"/>
+                <element inactive_on_update="false" label="説明会" language="ja" sequence="5" value="Briefing session"/>
+                <element inactive_on_update="false" label="In-house recruitment" sequence="6" value="In-house recruitment"/>
+                <element inactive_on_update="false" label="社内公募" language="ja" sequence="6" value="In-house recruitment"/>
+                <element inactive_on_update="false" label="Rules and regulations" sequence="7" value="Rules and regulations"/>
+                <element inactive_on_update="false" label="規則・規定" language="ja" sequence="7" value="Rules and regulations"/>
+                <element inactive_on_update="false" label="IT system" sequence="8" value="IT system"/>
+                <element inactive_on_update="false" label="ITシステム" language="ja" sequence="8" value="IT system"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="category" dependent_on_field="category" label="Subcategory" mandatory="true" max_length="40" name="subcategory" type="string" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="NECOms" language="ja" value="NECOms"/>
+                <element dependent_value="IT system" inactive_on_update="false" label="Workday" language="ja" value="Workday"/>
+                <element dependent_value="IT system" inactive_on_update="false" label="Workday" sequence="0" value="Workday"/>
+                <element dependent_value="IT system" inactive_on_update="false" label="NECOms" sequence="1" value="NECOms"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="template_editor_group" name="template_editor_group">f5818bbf0a0a0bc500c5f8a6e36eb3e9</contains>
+        <role display_value="x_460964_haga_hr.haga_hr_agent" name="x_460964_haga_hr.haga_hr_agent">226d73632f301010a8a63e0ef699b65d</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-28 04:04:24</sys_created_on>
+        <sys_id>4305aae92fc9d010a8a63e0ef699b6d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>template_editor_group.x_460964_haga_hr.haga_hr_agent</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sys_user_role_contains_4305aae92fc9d010a8a63e0ef699b6d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-28 04:04:24</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

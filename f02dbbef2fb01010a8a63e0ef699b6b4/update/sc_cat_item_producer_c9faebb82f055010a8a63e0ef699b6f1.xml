@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Inquiry">0beaff7c2f455010a8a63e0ef699b693</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="font-size: 12pt; color: #ff0000;"><strong>Please be sure to check the <a title="manuals" href="https://jbsbpos1.sharepoint.com/sites/HumanResources/_layouts/15/search.aspx/siteall?q&#61;%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB" target="_blank" rel="noopener noreferrer nofollow">manuals</a> and <a title="FAQ" href="https://jbsbpos1.sharepoint.com/sites/HumanResources/_layouts/15/search.aspx/siteall?q&#61;FAQ" target="_blank" rel="noopener noreferrer nofollow">FAQ</a> before contacting us using this form.</strong></span></p>
+<p>It may take a few days to respond.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>HR Ticket</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c9faebb82f055010a8a63e0ef699b6f1&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs>ef4a3b7c2f455010a8a63e0ef699b66b</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[/*
+	サブカテゴリのvalueを取得
+	
+	既知の不具合により、変数のタイプが「Lookup select box」だとソートが効かない。
+	https://hi.service-now.com/kb_view.do?sysparm_article=KB0695435
+	回避策として変数のタイプを「参照」にしたが、選択時にsys_idを取得してしまうため、
+	sys_idからvalueを取得する必要がある。その処理を行う。
+*/
+var subcategory = (function () {
+	var gr = new GlideRecord('sys_choice');
+	gr.addQuery('sys_id', (producer.subcategory.toString() || ''));
+	gr.query();
+    return gr.next() && gr.getRowCount() == 1 ? gr.getValue('value') : '';
+}());
+
+/*
+	チケットテーブルにデータをマッピング
+*/
+current.setValue('caller_id', gs.getUserID());
+current.setValue('subcategory', subcategory);
+current.setValue('contact_type', '4');
+
+/*
+	処理完了後のリダイレクト先の設定
+*/
+var link = 
+	'?id=form&table=' + current.getTableName() + '&view=ess&sys_id=' + current.getUniqueValue();
+producer.portal_redirect = link;]]></script>
+        <short_description>Inquiry Human Resources</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 01:17:02</sys_created_on>
+        <sys_id>c9faebb82f055010a8a63e0ef699b6f1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>HR Ticket</sys_name>
+        <sys_package display_value="HR Tickets" source="x_460964_haga_hr">f02dbbef2fb01010a8a63e0ef699b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Tickets">f02dbbef2fb01010a8a63e0ef699b6b4</sys_scope>
+        <sys_update_name>sc_cat_item_producer_c9faebb82f055010a8a63e0ef699b6f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 07:02:06</sys_updated_on>
+        <table_name>x_460964_haga_hr_ticket</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=c9faebb82f055010a8a63e0ef699b6f1"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c9faebb82f055010a8a63e0ef699b6f1</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 06:08:53</sys_created_on>
+        <sys_id>6c2bcc4a2fcd1410a8a63e0ef699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 06:08:53</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;p&gt;&lt;span style="font-size: 12pt; color: #ff0000;"&gt;&lt;strong&gt;問合せをする前には必ず&lt;a title="各種マニュアル" href="https://jbsbpos1.sharepoint.com/sites/HumanResources/_layouts/15/search.aspx/siteall?q=%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB" target="_blank" rel="noopener noreferrer nofollow"&gt;各種マニュアル&lt;/a&gt;と&lt;a title="FAQ" href="https://jbsbpos1.sharepoint.com/sites/HumanResources/_layouts/15/search.aspx/siteall?q=FAQ" target="_blank" rel="noopener noreferrer nofollow"&gt;FAQ&lt;/a&gt;をご確認ください。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;p&gt;※対応には時間がかかる場合があります。&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c9faebb82f055010a8a63e0ef699b6f1</documentkey>
+        <fieldname>name</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 06:08:53</sys_created_on>
+        <sys_id>982bcc4a2fcd1410a8a63e0ef699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 06:08:53</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>人事 問合せ</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c9faebb82f055010a8a63e0ef699b6f1</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 06:08:53</sys_created_on>
+        <sys_id>a02bcc4a2fcd1410a8a63e0ef699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 06:08:53</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>人事に問合せる</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=c9faebb82f055010a8a63e0ef699b6f1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>c9faebb82f055010a8a63e0ef699b6f1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 01:17:02</sys_created_on>
+        <sys_id>c09b63fc2f055010a8a63e0ef699b65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 01:17:02</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>c9faebb82f055010a8a63e0ef699b6f1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 01:17:02</sys_created_on>
+        <sys_id>089b63fc2f055010a8a63e0ef699b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 01:17:02</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
